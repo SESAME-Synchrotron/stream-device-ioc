@@ -61,4 +61,4 @@ COPY --from=modules /usr/lib64/libpcre2-8.so.0     /usr/lib64/
 COPY --from=modules /usr/lib64/libnss_dns.so.2     /usr/lib64/
 
 # Run the IOC.
-CMD ["/ioc/st.cmd"]
+# CMD ["/ioc/st.cmd"]
