@@ -60,5 +60,9 @@ COPY --from=modules /usr/lib64/libselinux.so.1     /usr/lib64/
 COPY --from=modules /usr/lib64/libpcre2-8.so.0     /usr/lib64/
 COPY --from=modules /usr/lib64/libnss_dns.so.2     /usr/lib64/
 
+# Copy necessary bin files
+COPY --from=modules /usr/bin/make                          /usr/bin
+COPY --from=modules /opt/epics/base/bin/linux-x86_64/msi   /usr/bin
+
 # Run the IOC.
 # CMD ["/ioc/st.cmd"]
