@@ -5,4 +5,4 @@ O.*/
 include/
 envPaths
 *.swp*
-
+.iocsh_history

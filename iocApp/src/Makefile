@@ -14,10 +14,12 @@ DBD += ioc.dbd
 
 # ioc.dbd will be made up from these files:
 ioc_DBD += base.dbd
+ioc_DBD += asyn.dbd
 ioc_DBD += sCalcoutRecord.dbd
 ioc_DBD += stream.dbd
 ioc_DBD += drvAsynSerialPort.dbd
 ioc_DBD += drvAsynIPPort.dbd
+ioc_DBD += drvVxi11.dbd
 ioc_DBD += iocAdmin.dbd
 ioc_DBD += asSupport.dbd
 
